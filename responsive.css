@@ -1,0 +1,372 @@
+@media screen and (min-device-width: 350px) and (max-device-width: 900px){
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .header{
+        /* background-image: url(images/mountai.jpg); */
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+    }
+    .nav{
+        display: flex;
+        height: 40px;
+        width: 100%;
+        padding-top: 10px;
+        
+    }
+    .nav .left{
+        font-size: 18px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        width: 20%;
+    }
+    .nav .left  p{
+    
+        
+        color: red;
+        text-transform: upparcase;
+        
+    }
+    .nav .right{
+       width: 80%;
+    }
+    .nav .right .list li{
+        display: inline-block;
+        list-style: none;
+    }
+    .nav .right .list li a{
+        color: white;
+        text-decoration: none;
+        text-transform: uppaercase;
+        padding: 0px 5px;
+    }
+    .nav .right .list li a:hover{
+        color: aquamarine;
+    }
+    .line{
+        color: white;
+    }
+    .container{
+        padding-top: 235px;
+        text-align: center;
+        align-items: center;
+        color: aliceblue;
+        /* margin: 0%; */
+    }
+    .btn{
+        padding: 10px;
+        font-size: medium;
+        border-radius: 9px;
+        background-color: red;
+        color: white;
+    }
+    .content{
+        text-align: center;
+        padding: 20px;
+    }
+    .container2{
+        background-color: black;
+        color: white;
+    }
+    .cards{
+       display: flex;
+       flex-direction: column;
+       
+    }
+    
+    
+    .card1 {
+        
+        margin: auto;
+        height: 150px;
+    }
+    
+    .card1 img{
+        margin: 0px 72px;
+        border-radius: 50px;
+    }
+    .innercontainer{
+        text-align: center;
+    }
+    .card2 img{
+        background-color: black;
+        margin: 0px 50px;
+        border-radius: 50px;
+    }
+    .card3 img{
+        margin: 0px 50px;
+         border-radius: 50px;
+    }
+    .card4 img{
+        margin: 0px 50px;
+         border-radius: 50px;
+    }.container3{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .halfpart{
+        width: 100%;
+    }
+    .halfpart2{
+        width: 100%;
+        text-align: center;
+    }
+    .qoute{
+        padding: 30px 0px;
+     }
+    .qoute2 p{
+       padding: 50px 0px;
+    }
+    .btn2{
+        padding: 10px;
+        font-size: medium;
+        border-radius: 9px;
+        background-color: red;
+        color: white;
+    }
+    .container4{
+        background-color: black;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        
+    }
+    .icons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .icon1 {
+        /* align-items: center; */
+        text-align: center;
+        width: 200px;
+        margin: 20px;
+    }
+    .icon2 {
+        text-align: center;
+        width: 200px;
+        margin: 20px;
+    }
+    .icon3 {
+        text-align: center;
+        width: 200px;
+        margin: 20px;
+        
+    }
+    .icon4 {
+        text-align: center;
+        width: 200px;
+        margin: 20px;
+    }
+    .icon1 img{
+     
+         border-radius: 50px;
+    }
+    .icon2 img{
+      
+      
+         border-radius: 50px;
+    }
+    .icon3 img{
+        
+         border-radius: 50px;
+    }
+    .icon4 img{
+        
+         border-radius: 50px;
+    }
+    .icon1 .container1 p{
+        align-items: center;
+    }
+    .container5{
+        display: flex;
+        flex-direction: column;
+    }
+    .part1{
+        width: 100%;
+        text-align: center;
+    }
+    .container5 .part1{
+        padding: 30px 0px;
+    }
+    .container5 .part1 .list2{
+        padding: 50px 0px ;
+    }
+    .container5 .part1 .list2 li{
+        display: inline-block;
+        list-style: none;
+    }
+    .container5 .part1 .list2 li a{
+        color: black;
+        text-decoration: none;
+        text-transform: uppaercase;
+        padding: 20px 50px;
+    }
+    .container5 .part1 .list2 li a:hover{
+        color: coral;
+    }
+    .part2{
+        width: 100%;
+    }
+    .container6{
+        background-color: black;
+        color: white;
+        
+    }
+    .container6  span{
+        text-align: center;
+        
+         
+    }
+    .gallary1{
+        display: flex;
+        padding: 50px 0px;
+    }
+    .gallary1 .mainphoto1{
+        width: 47%;
+        margin: 10px 10px;
+        padding: 0px 10px;
+    
+       
+    }
+    .gallary1 .mainphoto2{
+        width: 47%;
+        margin: 10px 10px;
+    }
+    .gallary2{
+        display: flex;
+        padding: 50px 0px;
+    }
+    
+    .gallary2 .mainphoto3{
+        width: 47%;
+        margin: 10px 10px;
+        padding: 0px 10px;
+    
+       
+    }
+    .gallary2 .mainphoto4{
+        width: 47%;
+        margin: 10px 10px;
+    }
+    
+    .container7 {
+       
+        text-align: center;
+        padding: 30px 0px;
+    }
+    .container8{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 10px;
+    }
+    .contact {
+        width: 100%;
+        /* align-items: center; */
+        text-align: center;
+    }
+    .contact .form{
+        /* width: 92%; */
+        /* padding: 0px 10px; */
+        margin: 0px 10px;
+    }
+    .contact .form input{
+            width: 100%;
+            font-size: 18px;
+            margin: 10px 0px;
+            padding: 0px 0px 10px 10px;
+            padding-left: 0px;
+    }
+    .submit-btn{
+        padding: 10px;
+        font-size: medium;
+        border-radius: 9px;
+        background-color: red;
+        color: white;
+    }
+    .container8 .contact{
+        width: 100%;
+    }
+    
+    
+    
+    .container8 .contact span{
+        
+        text-align: center;
+    }
+    .container8 .address{
+        width: 50%;
+    }
+    .container9{
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+    .emailsection input{
+    padding: 5px;
+    border-radius: 5px;
+    }
+    .emailsection input:hover{
+        opacity: .8;
+    }
+    .emailsection button{
+        padding: 5px;
+        border-radius: 5px white;
+        font-size: medium;
+        background-color: lightgreen;
+    }
+    .emailsection button:hover{
+    opacity: .8;
+    }
+    .line2{
+        color: white;
+        width: 80%;
+    }
+    .container10{
+        background-color: black;
+        color: white;
+        display: flex;
+        padding: 0px;
+        flex-direction: column;
+    }
+     .one{
+        width: 100%;
+        text-align: center;
+        padding: 20px 10px;
+        margin: 0px;
+    }
+    .two{
+        width: 100%;
+        text-align: center;
+        padding: 20px 10px;
+        margin: 0px;
+    }
+    .two .subicon{
+        display: flex;
+        padding-left: 125px;
+        
+    }
+    .insta{
+        margin: 10px;
+        
+    }
+    .three{
+        width: 100%;
+        text-align: center;
+        padding: 20px 10px;
+        margin: 0px;
+    }
+    .footer{
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+    
+}
